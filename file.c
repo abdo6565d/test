@@ -3,11 +3,11 @@
 #define x 5
 #if x>y
 int main(){
-	printf("%d",x);
+	printf("x= %d",x);
 }
 #elif x<y
 int main(){
-	printf("%d",y);
+	printf("y= %d",y);
 }
 #else
 int main(){
